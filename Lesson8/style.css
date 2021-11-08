@@ -1,0 +1,39 @@
+div{
+    width: 300px;
+    height: 300px;
+    margin-top: 10px;
+    transition-duration: 1s;
+    text-align: center;
+    font-size: 30px;
+}
+div:hover{
+    width: 600px;
+}
+.blue{
+    background-color: blue;
+    transition-timing-function: ease;
+}
+.red{
+    background-color: red;
+    transition-timing-function: ease-in;
+}
+.orange{
+    transition-timing-function: ease-out;
+    background-color: orange;
+}
+.yellow{
+    background-color: yellow;
+    transition-timing-function: ease-in-out;
+}
+.pink{
+    background-color: pink;
+        transition-timing-function: linear;
+}
+.purple{
+    background-color: purple;
+    transition-timing-function: steps(5,end);
+}
+.green{
+    background-color: green;
+    transition-timing-function: cubic-bezier(0.5s, 0.7s, 1s);
+}
