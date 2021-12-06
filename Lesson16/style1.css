@@ -1,0 +1,42 @@
+nav{
+    background-color: orangered;
+    color: white;
+}
+a{
+    list-style-type: none;
+    color: black;
+}
+.container{
+    margin: 0 auto;
+}
+nav a{
+    display: block;
+    padding: 0 10px;
+    color: white;
+    text-decoration: none;
+}
+nav a:hover{
+    color: black;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    color: black;
+}
+nav ul li{
+    display: inline-block;
+    width: 170px;
+    line-height: 30px;
+}
+nav ul:hover{
+        background-color: orangered;
+}
+nav ul li:hover ul{
+    background-color: orangered;
+    color: white;
+}
+nav ul li li ul:hover{
+    display: inherit;
+}
